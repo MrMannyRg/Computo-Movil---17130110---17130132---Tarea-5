@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AcercaDe</string>
+    <string name="apodo">Apodo favorito</string>
+    <string name="biografia">Cómo convertir unidades de dp a unidades de píxeles
+En algunos casos, necesitarás expresar las dimensiones en dp y convertirlas a píxeles. La conversión de unidades dp a píxeles de pantalla es simple:
+
+px = dp * (dpi / 160)
+
+Imagina una app en la que un gesto de desplazamiento o lanzamiento se reconozca después de que el dedo del usuario haya recorrido al menos 16 píxeles. En una pantalla de referencia, un desplazamiento obligatorio del usuario de 16 pixels / 160 dpi, que equivale a un décimo de pulgada (o 2.5 mm) antes de que se reconozca el gesto. En un dispositivo con una pantalla de alta densidad (240 dpi), el dedo del usuario debe desplazarse 16 pixels / 240 dpi, que equivale a un quinceavo de pulgada (o 1.7 mm). La distancia es mucho más corta y, por lo tanto, la app resulta más sensible para el usuario.
+
+Para solucionar este problema, el umbral del gesto debe expresarse en dp en el código, y luego convertirse a píxeles reales. Por ejemplo:</string>
+    <string name="aceptar_boton">aceptarr</string>
+</resources>
